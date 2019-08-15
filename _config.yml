@@ -59,14 +59,14 @@ kramdown:
 disqus_username: vectorAZ
 
 # Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: qiubaiying.github.io    #仓库名称
-#   owner: qiubaiying    #github用户名
-#   admin: qiubaiying
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 148bd6d08ccc7c797895                            #生成的clientID
+  clientSecret: 2f028af83a0f8382f4b13dc78a90f761c0153120    #生成的clientSecret
+  repo: vectoraz.github.io    #仓库名称
+  owner: vectorAZ    #github用户名
+  admin: vectorAZ
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
