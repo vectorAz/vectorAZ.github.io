@@ -61,8 +61,8 @@ disqus_username: vectorAZ
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 148bd6d08ccc7c797895                            #生成的clientID
-  clientSecret: 2f028af83a0f8382f4b13dc78a90f761c0153120    #生成的clientSecret
+  clientID: bb938c88daf08101420e                            #生成的clientID
+  clientSecret: 8144390255abc07ae3419f93d0bf6eb9c849cfbe    #生成的clientSecret
   repo: vectoraz.github.io    #仓库名称
   owner: vectorAZ    #github用户名
   admin: vectorAZ
