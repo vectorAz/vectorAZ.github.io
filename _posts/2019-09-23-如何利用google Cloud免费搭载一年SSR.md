@@ -59,6 +59,7 @@ Compute Engine->vm实例
 	设置password和端口号后可以一路回车,秋水插件已帮我们做好默认配置
 
 # 等待配置完成
-出现以下内容说明已设置完成, Enjoy it~
-![ssr-success.png](https://github.com/vectorAz/vectorAZ.github.io/blob/master/img/ssr-success.png "my-logo")
+出现以下内容说明已设置完成, Enjoy it~  
+
+![ssr-success.png](https://github.com/vectorAz/vectorAZ.github.io/raw/master/img/ssr-success.png "my-logo")
 
