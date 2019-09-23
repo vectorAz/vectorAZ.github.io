@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      SSR
-subtitle:   免费搭载ssr	
+title:      如何利用google Cloud免费搭载一年SSR
+subtitle:   搭载自己的ssr	
 date:       2019-09-23
-author:     BY
+author:     sora
 header-img: img/post-bg-swift2.jpg
 catalog: true
 tags:
