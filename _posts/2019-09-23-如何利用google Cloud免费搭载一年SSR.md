@@ -42,17 +42,17 @@ tags:
 	输入 `yum -y install wget`
 	这里会有一个317M的文件 提示是否下载 输入Y回车
 	下载完成后输入(安装秋水逸冰四合一插件)
-	```
-	wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
-    hmod +x shadowsocks-all.sh
-    ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
-	(以上内容可直接复制并回车)
-	```
+```
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+hmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+(以上内容可直接复制并回车)
+```
 # 等待下载完成
 	填写对应的ssr设置
 	设置password和端口号后可以一路回车,秋水插件已帮我们做好默认配置
 
 # 等待配置完成
 	出现以下内容说明已设置完成 injoy it~
-	![ssr-success.png](img/ssr-success.png "my-logo")
+![ssr-success.png](img/ssr-success.png "my-logo")
 
