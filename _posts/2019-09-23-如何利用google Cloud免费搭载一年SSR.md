@@ -22,6 +22,7 @@ tags:
     来源过滤:IP地址范围
     来源ip地址范围:0.0.0.0/0
     端口和协议:全部允许
+
 # 创建外部ip
 	vpc网络->外部ip地址->保留静态地址  (区域选想要的 其他不变 )
 
@@ -35,24 +36,23 @@ tags:
    *创建*
 
 # 等待创建完成  点击ssh连接
-	输入:
-		`sudo -i`
-	进入root
-	输入 `yum update`
-	输入 `yum -y install wget`
-	这里会有一个317M的文件 提示是否下载 输入Y回车
-	下载完成后输入(安装秋水逸冰四合一插件)
+输入 `sudo -i`
+进入root
+输入 `yum update`
+输入 `yum -y install wget`
+这里会有一个317M的文件 提示是否下载 输入Y回车
+下载完成后输入(安装秋水逸冰四合一插件)
 ```
-wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
-hmod +x shadowsocks-all.sh
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
-(以上内容可直接复制并回车)
+	wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+	hmod +x shadowsocks-all.sh
+	./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+	(以上内容可直接复制并回车)
 ```
 # 等待下载完成
 	填写对应的ssr设置
 	设置password和端口号后可以一路回车,秋水插件已帮我们做好默认配置
 
 # 等待配置完成
-	出现以下内容说明已设置完成 injoy it~
-![ssr-success.png](img/ssr-success.png "my-logo")
+	出现以下内容说明已设置完成, Enjoy it~
+![ssr-success.png](https://github.com/vectorAz/vectorAZ.github.io/blob/master/img/ssr-success.png "my-logo")
 
